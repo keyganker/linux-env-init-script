@@ -48,7 +48,13 @@ if [ ! -z $SUBLIME_CONFIG ]; then
 
     if [ $?==0 ]; then
         echo 'Install ctag plugin of sublime success...'
+    else
+        echo 'Install ctag plugin of sublime failed...'
+        exit $CTAGS_EXIT_STATUS
     fi
+else
+    echo "\n"
+    echo 'No sublime configure folder to install ctag...'
 fi
 
 # install ctags success
