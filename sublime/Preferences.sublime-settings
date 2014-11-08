@@ -1,0 +1,17 @@
+// Settings in here override those in "Default/Preferences.sublime-settings", and
+// are overridden in turn by file type specific settings.
+{
+//Cancel update reminder
+"update_check":false,
+//
+"draw_white_space": "all",
+"tab_size" : 4,
+"translate_tabs_to_spaces": true,
+
+//close auto complete "{},()" and so on
+"auto_match_enabled": true,
+//highlight for selected line
+"highlight_line": true,
+// Set to true to removing trailing white space on save
+"trim_trailing_white_space_on_save": true
+}
