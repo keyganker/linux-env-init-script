@@ -1,11 +1,14 @@
 // Settings in here override those in "Default/Preferences.sublime-settings", and
 // are overridden in turn by file type specific settings.
 {
+"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+"open_files_in_new_window": false,
 //Cancel update reminder
 "update_check":false,
 //
 "draw_white_space": "all",
 "tab_size" : 4,
+"font_size": 10,
 "translate_tabs_to_spaces": true,
 
 //close auto complete "{},()" and so on
@@ -14,4 +17,6 @@
 "highlight_line": true,
 // Set to true to removing trailing white space on save
 "trim_trailing_white_space_on_save": true
+
+
 }
